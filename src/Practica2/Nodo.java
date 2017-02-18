@@ -2,7 +2,17 @@ package Practica2;
 
 public class Nodo {
     private int dato;
-    private Nodo enlace;
+    private Nodo enlace; //Enlace al siguiente nodo,
+
+    public int getIndice() {
+        return indice;
+    }
+
+    public void setIndice(int indice) {
+        this.indice = indice;
+    }
+
+    private int indice;
 
     public Nodo(int x) {
         dato = x;

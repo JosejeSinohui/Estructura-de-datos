@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc27886-fbbd-4fa5-86eb-9e7bf6c97e30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Estructura de Datos/Practica1/Insercion.class" afterPath="$PROJECT_DIR$/out/production/Estructura de Datos/Practica1/Insercion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Estructura de Datos.iml" afterPath="$PROJECT_DIR$/Estructura de Datos.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Practica2/Lista.java" afterPath="$PROJECT_DIR$/src/Practica2/Lista.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Practica2/Nodo.java" afterPath="$PROJECT_DIR$/src/Practica2/Nodo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Practica2/Principal.java" afterPath="$PROJECT_DIR$/src/Practica2/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Practica2/Seleccion.java" afterPath="$PROJECT_DIR$/src/Practica2/Seleccion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,23 +24,31 @@
     <favorites_list name="estructura-de-datos" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Practica2/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Insercion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Practica2/Insercion.java">
+      <file leaf-file-name="Lista.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Practica2/Lista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+                <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+                <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+                <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+                <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+                <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+                <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,13 +78,13 @@
         <option value="$PROJECT_DIR$/src/Practica1/Burbuja.java" />
         <option value="$PROJECT_DIR$/src/Practica1/Arreglo.java" />
         <option value="$PROJECT_DIR$/src/Practica1/Principal.java" />
-        <option value="$PROJECT_DIR$/src/Practica2/Nodo.java" />
-        <option value="$PROJECT_DIR$/src/Practica2/Lista.java" />
         <option value="$PROJECT_DIR$/src/Practica2/Burbuja.java" />
         <option value="$PROJECT_DIR$/src/Practica1/Seleccion.java" />
-        <option value="$PROJECT_DIR$/src/Practica2/Seleccion.java" />
         <option value="$PROJECT_DIR$/src/Practica1/Insercion.java" />
         <option value="$PROJECT_DIR$/src/Practica2/Insercion.java" />
+        <option value="$PROJECT_DIR$/src/Practica2/Nodo.java" />
+        <option value="$PROJECT_DIR$/src/Practica2/Seleccion.java" />
+        <option value="$PROJECT_DIR$/src/Practica2/Lista.java" />
         <option value="$PROJECT_DIR$/src/Practica2/Principal.java" />
       </list>
     </option>
@@ -109,9 +119,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,10 +163,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practica1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,11 +590,14 @@
       <workItem from="1487193645956" duration="5852000" />
       <workItem from="1487202186174" duration="693000" />
       <workItem from="1487265491440" duration="4471000" />
+      <workItem from="1487289426015" duration="759000" />
+      <workItem from="1487347754473" duration="5368000" />
+      <workItem from="1487389237504" duration="3441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43566000" />
+    <option name="totallyTimeSpent" value="53134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,10 +619,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29021558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2885572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15372671" sideWeight="0.49447078" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1591615" sideWeight="0.49447078" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -650,7 +659,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,7 +676,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +709,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,7 +726,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +743,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,7 +760,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +777,7 @@
         <state relative-caret-position="36">
           <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,7 +794,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -770,7 +811,7 @@
         <state relative-caret-position="288">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -787,7 +828,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,27 +1001,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica1/Arreglo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practica1/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica2/Nodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,30 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica2/Seleccion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica2/Burbuja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practica2/Lista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practica1/Insercion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1026,16 +1034,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Practica2/Insercion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="198">
           <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica1/Arreglo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica2/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#172#173#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica2/Burbuja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica2/Seleccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practica2/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="method#Lista#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarCabezaLista#0;class#Lista#0" expanded="false" />
+            <element signature="method#borrarUltimo#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarFinal#0;class#Lista#0" expanded="false" />
+            <element signature="method#eliminarNodo#0;class#Lista#0" expanded="false" />
+            <element signature="method#visualiza#0;class#Lista#0" expanded="false" />
+            <element signature="method#agregarEnmedio#0;class#Lista#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practica2/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -3,6 +3,7 @@ package Practica2;
 public class Seleccion {
 
     public static void ascendente(Lista lista) {
+
         long inicio = System.currentTimeMillis();
 
         for (Nodo i = lista.primero; i != null; i = i.getEnlace()) {
