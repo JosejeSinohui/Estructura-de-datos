@@ -41,6 +41,20 @@ public class Lista {
         return this;
     }
 
+    public int ultimoDato() {
+
+        int last = 0;
+
+        for (Nodo i = primero; i != null; i = i.getEnlace()) {
+            if (i.getEnlace() == null) {
+                last = i.getDato();
+            }
+        }
+
+        return last;
+
+    }
+
     public Lista borrarPrimero() {
         this.primero = primero.getEnlace();
         return this;
