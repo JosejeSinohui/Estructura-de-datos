@@ -1,8 +1,5 @@
 package Practica1;
 
-/**
- * Created by joseje on 1/25/17.
- */
 public class Seleccion {
 
     public static void ascendente(int[] arreglo) {
@@ -25,7 +22,7 @@ public class Seleccion {
         }
 
         long fin = System.currentTimeMillis();
-        System.out.println("Seleccion Ascendente Tiempo: "+(fin -inicio)+"ms");
+        System.out.println("Seleccion Ascendente Tiempo: " + (fin - inicio) + "ms");
 
     }
 

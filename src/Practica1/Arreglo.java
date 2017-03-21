@@ -4,6 +4,7 @@ public class Arreglo {
 
     static int[] contenido;
     static int[] contenido2;
+
     public static void crear(int tamaño) {
         contenido = new int[tamaño];
         contenido2 = new int[tamaño];
